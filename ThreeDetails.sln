@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeDetailsCalculator.Test", "ThreeDetails.Test\ThreeDetailsCalculator.Test.csproj", "{416631FD-767C-4555-8841-E9CF2AF2FB1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeDetails.BL", "ThreeDetails.BL\ThreeDetails.BL.csproj", "{56BAB5E2-203E-4C69-8F6C-3FE781D7C458}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{416631FD-767C-4555-8841-E9CF2AF2FB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{416631FD-767C-4555-8841-E9CF2AF2FB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{416631FD-767C-4555-8841-E9CF2AF2FB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56BAB5E2-203E-4C69-8F6C-3FE781D7C458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BAB5E2-203E-4C69-8F6C-3FE781D7C458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BAB5E2-203E-4C69-8F6C-3FE781D7C458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BAB5E2-203E-4C69-8F6C-3FE781D7C458}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

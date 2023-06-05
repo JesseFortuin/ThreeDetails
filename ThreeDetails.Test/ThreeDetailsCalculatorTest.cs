@@ -1,3 +1,5 @@
+using ThreeDetails.BL;
+
 namespace ThreeDetails.Test
 {
     public class ThreeDetailsCalculatorTest
@@ -12,7 +14,7 @@ namespace ThreeDetails.Test
         public void Test1(int input, int expected)
         {
             //arrange
-            IThreeDetails details = new ThreeDetails();
+            IThreeDetailsCalculator details = new ThreeDetailsCalculator();
 
             //act
             int actual = details.ThreeDetails(input);
