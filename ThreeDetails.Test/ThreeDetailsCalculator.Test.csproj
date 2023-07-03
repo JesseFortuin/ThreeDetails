@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ThreeDetails.BL\ThreeDetails.BL.csproj" />
+  </ItemGroup>
+
 </Project>
